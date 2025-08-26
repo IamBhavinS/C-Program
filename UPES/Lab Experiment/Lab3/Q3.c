@@ -1,3 +1,4 @@
+//Write a program that promts the user to enter their name and age
 #include <stdio.h>
 
 int main() {
