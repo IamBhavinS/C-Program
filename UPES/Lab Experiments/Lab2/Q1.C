@@ -1,3 +1,4 @@
+//Calculate Area of a Rectangle 
 #include <stdio.h>
 int main() {
 int num = 2;  // number to check
