@@ -30,7 +30,8 @@ int main() {
         else {
             printf("It is a SCALENE triangle.\n");
         }
-    } else {
+    }
+    else {
         printf("The triangle is NOT VALID.\n");
     }
 
