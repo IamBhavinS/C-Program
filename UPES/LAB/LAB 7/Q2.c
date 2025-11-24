@@ -1,3 +1,6 @@
+/*Develop a recursive function GCD (num1, num2) that accepts two integer arguments. 
+Write a C program that invokes this function to find the greatest common divisor of two given integers.*/
+
 #include <stdio.h>
 
 //unwanted input is gone

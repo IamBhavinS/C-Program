@@ -1,3 +1,6 @@
+/*Develop a recursive function FIBO (num) that accepts an integer argument. 
+Write a C program that invokes this function to generate the Fibonacci sequence up to num.*/ 
+
 #include <stdio.h>
 
 // unwanted input is gone
@@ -6,7 +9,7 @@ void clearInput() {
     while ((c = getchar()) != '\n' && c != EOF) {}
 }
 
-// recursive fibonacci 
+// recursive fibonacci
 int fibo(int n) {
     if (n == 0) return 0;
     if (n == 1) return 1;
@@ -23,7 +26,7 @@ int main() {
         if (scanf("%d", &num) != 1 || num < 0) {
             printf("Invalid input! Enter a non-negative integer only.\n");
             clearInput();
-            continue;   
+            continue;
         }
 
         printf("\nFibonacci sequence up to %d terms:\n", num);

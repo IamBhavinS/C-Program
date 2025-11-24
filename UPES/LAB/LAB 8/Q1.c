@@ -1,3 +1,9 @@
+/*1. Write a C program that uses functions to perform the following operations:
+        a. Reading a complex number.
+        b. Writing a complex number.
+        c. Addition and subtraction of two complex numbers
+Note: represent complex number using a structure.*/
+
 #include <stdio.h>
 
 // unwanted input is gone

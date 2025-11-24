@@ -1,3 +1,6 @@
+/*Create a union containing 6 strings: name, home_address, hostel_address, city, state and zip.
+Write a C program to display your present address.*/
+
 #include <stdio.h>
 #include <string.h>
 
